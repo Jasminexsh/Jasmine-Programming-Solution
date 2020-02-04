@@ -1,3 +1,3 @@
-# Solution-on-PAT
+# Solution-on-computer programming
 
-PAT真题刷题记录
+个人刷题题解
