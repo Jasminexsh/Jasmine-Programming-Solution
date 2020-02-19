@@ -55,7 +55,7 @@ int main()
 	
 	if(max!=0) printf("%d %d %d",max,start,end);
 	else if(minus==K) printf("%d %d %d",max,A[0],A[K-1]);
-  else printf("%d %d %d",max,0,0);
+  	else printf("%d %d %d",max,0,0);
 	return 0;
 
 /*参考修正
