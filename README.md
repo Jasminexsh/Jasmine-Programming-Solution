@@ -1,1 +1,1 @@
-# Solution-on-computer programming
+# Solution-on-programming
