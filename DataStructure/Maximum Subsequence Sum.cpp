@@ -1,3 +1,4 @@
+//有缺陷的代码
 #include<stdio.h>
 
 int main()
