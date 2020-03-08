@@ -133,3 +133,57 @@ int main() {
     return 0;
 }
 */
+
+/*
+#include<stdio.h>
+#include<stdlib.h>
+#define MAXSIZE 1000
+typedef struct Stack *List;
+struct Stack
+{
+    int data[MAXSIZE];
+    int top;
+};
+int main()
+{
+    int m,n,k,flag=0;
+    scanf("%d %d %d",&m,&n,&k);
+    while(k--)
+    {
+        int num=n,x;
+        int now=1;
+        flag=0;
+        List s;
+        s=(List)malloc(sizeof(struct Stack));
+        s->top=0;
+        while(num--)
+        {
+             scanf("%d",&x);
+             while((s->top==0||s->data[s->top]!=x)&&flag!=1)//空/顶部元素不符合/没超最大内存
+             {
+                s->data[++(s->top)]=now;
+                now+=1;
+                if(s->top>m)
+                {
+                    flag=1;//溢出
+                    break;
+                }
+             }
+             if(s->data[s->top]==x&&flag!=1)
+             {
+                   s->top--;
+ 
+             }
+        }
+        if(flag==0)
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+        }
+    }
+    return 0;
+}
+*/
