@@ -4,10 +4,10 @@
 list的结构定义：
 typedef struct Node *PtrToNode;
 struct Node {
-    ElementType Data; /* 存储结点数据 */
-    PtrToNode   Next; /* 指向下一个结点的指针 */
+    ElementType Data; // 存储结点数据 
+    PtrToNode   Next; // 指向下一个结点的指针 
 };
-typedef PtrToNode List; /* 定义单链表类型 */
+typedef PtrToNode List; // 定义单链表类型 
 */
 
 /*
@@ -23,8 +23,8 @@ struct Node {
 };
 typedef PtrToNode List;
 
-List Read(); /* 细节在此不表 */
-void Print( List L ); /* 细节在此不表 */
+List Read(); // 细节在此不表 
+void Print( List L ); // 细节在此不表 
 
 List Reverse( List L );
 
