@@ -38,7 +38,7 @@ int main()
     return 0;
 }
 
-/* 你的代码将被嵌在这里 */
+// 你的代码将被嵌在这里 
 */
 
 List Reverse( List L )
