@@ -28,7 +28,7 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
                 Now->next=Next;
                 free(Temp);
             }
-            if(Next)//如果指针Nezt指针非空，Now与Next指针均向后移一位
+            if(Next)//如果指针Next指针非空，Now与Next指针均向后移一位
             {
                 Now=Now->next;
                 Next=Next->next;
